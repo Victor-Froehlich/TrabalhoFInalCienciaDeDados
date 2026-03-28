@@ -1,0 +1,41 @@
+RESUMO DO PROJETO – ODS 04: Educação de Qualidade
+=======================================================
+Total de alunos analisados : 200
+Em risco (Sim)             : 49  (24.5%)
+Fora de risco (Não)        : 151  (75.5%)
+
+Critério de classificação:
+  SIM    → Média < 6.0 OU Frequência < 70.0%
+  Nível Alto  → idem acima
+  Nível Médio → Média < 7.0 OU Frequência < 80.0%
+  Nível Baixo → caso contrário
+
+Estatísticas descritivas:
+       Média das Notas  Frequência (%)  Score Criticidade
+count           200.00          200.00             200.00
+mean              7.02           81.51              25.29
+std               1.17           11.13              11.47
+min               4.90           60.00               4.60
+25%               6.00           71.75              15.15
+50%               7.00           83.00              24.60
+75%               8.02           92.00              34.90
+max               9.30           99.00              46.60
+
+Distribuição por Série:
+Em Risco  Não  Sim
+Série             
+1º Ano     52   16
+2º Ano     51   16
+3º Ano     48   17
+
+Top 5 alunos em risco (maior Score de Criticidade):
+        Aluno  Série  Média das Notas  Frequência (%) Participação  Score Criticidade
+ João Ribeiro 3º Ano              4.9              60        Baixa               46.6
+  Caio Torres 3º Ano              5.0              61        Baixa               45.6
+  Hugo Torres 3º Ano              5.0              62        Baixa               45.2
+  Fabio Costa 3º Ano              5.1              62        Baixa               44.6
+Victor Farias 3º Ano              5.1              63        Baixa               44.2
+
+── RELATÓRIO DE QUALIDADE DOS DADOS ──
+Registros duplicados (por 'Aluno'): 3
+Sem valores nulos ✓
